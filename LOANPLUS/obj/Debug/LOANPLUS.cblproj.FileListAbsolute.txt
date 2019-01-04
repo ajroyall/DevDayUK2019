@@ -1,0 +1,8 @@
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANPLUS\bin\Debug\LOANPLUS.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANPLUS\bin\Debug\LOANPLUS.pdb
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANPLUS\bin\Debug\LOANPLUS.LOANAMORT.idy
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANPLUS\obj\Debug\LOANPLUS.cblproj.CoreCompileInputs.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANPLUS\obj\Debug\LOANPLUS.LOANAMORT.idy
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANPLUS\obj\Debug\LOANPLUS.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANPLUS\obj\Debug\LOANPLUS.pdb
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANPLUS\obj\Debug\LOANPLUS.cblprojAssemblyReference.cache

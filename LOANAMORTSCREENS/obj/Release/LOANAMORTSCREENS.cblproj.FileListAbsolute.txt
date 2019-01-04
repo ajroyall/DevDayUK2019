@@ -1,0 +1,7 @@
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORTSCREENS\bin\Release\LOANAMORTSCREENS.exe
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORTSCREENS\bin\Release\LOANAMORT.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORTSCREENS\bin\Release\MicroFocus.COBOL.Runtime.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORTSCREENS\obj\Release\LOANAMORTSCREENS.cblprojAssemblyReference.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORTSCREENS\obj\Release\LOANAMORTSCREENS.cblproj.CoreCompileInputs.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORTSCREENS\obj\Release\LOANAMORTSCREENS.cblproj.CopyComplete
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORTSCREENS\obj\Release\LOANAMORTSCREENS.exe

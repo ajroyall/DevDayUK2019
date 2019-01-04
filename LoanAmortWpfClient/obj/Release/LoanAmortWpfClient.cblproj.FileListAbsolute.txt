@@ -1,0 +1,11 @@
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\bin\Release\LoanAmortWpfClient.exe
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\LoanAmortWpfClient.cblprojAssemblyReference.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\Window1.baml
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\Window1.g.cbl
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\App.g.cbl
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\LoanAmortWpfClient_MarkupCompile.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\LoanAmortWpfClient.g.resources
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\LoanAmortWpfClient.Properties.Resources.resources
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\LoanAmortWpfClient.cblproj.GenerateResource.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\LoanAmortWpfClient.cblproj.CoreCompileInputs.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortWpfClient\obj\Release\LoanAmortWpfClient.exe

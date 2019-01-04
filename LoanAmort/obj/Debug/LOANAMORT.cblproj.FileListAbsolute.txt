@@ -1,0 +1,8 @@
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\bin\Debug\LOANAMORT.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\bin\Debug\LOANAMORT.pdb
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\bin\Debug\LOANAMORT.LOANAMORT.idy
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\obj\Debug\LOANAMORT.cblproj.CoreCompileInputs.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\obj\Debug\LOANAMORT.LOANAMORT.idy
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\obj\Debug\LOANAMORT.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\obj\Debug\LOANAMORT.pdb
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\obj\Debug\LOANAMORT.cblprojAssemblyReference.cache

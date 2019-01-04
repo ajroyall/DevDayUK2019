@@ -1,0 +1,71 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{971B80BC-B29F-48CE-8F18-EC2E16A48CE0}</ProjectGuid>
+    <ProjectTypeGuids>{9B4C43C6-818D-4EE4-A817-4CC01335F561};{535C04D7-A2A5-47c7-83E0-B340A995CD1F}</ProjectTypeGuids>
+    <OutputName>LoanPlusUnitTest</OutputName>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LoanPlusUnitTest</RootNamespace>
+    <PreserveCase>True</PreserveCase>
+    <IdyCollectionName>$(MSBuildProjectName)</IdyCollectionName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MFDependencyPaths>..\commoncpy;.\C:\Users\alwynr\Downloads\GitHub\AmortLoan\commoncpy</MFDependencyPaths>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <MaxError>100</MaxError>
+    <SourceFormat>Variable</SourceFormat>
+    <DefineConstants>DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\bin\Release\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <MaxError>100</MaxError>
+    <SourceFormat>Variable</SourceFormat>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LoanPlusTest.cbl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LOANPLUS\LOANPLUS.cblproj">
+      <Name>LOANPLUS</Name>
+      <Project>{6F23B94B-50CF-47FC-8AE1-DF05FCB22D73}</Project>
+      <Package>{535C04D7-A2A5-47C7-83E0-B340A995CD1F}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\commoncpy\UnitTestErrorMessage.cpy">
+      <Link>UnitTestErrorMessage.cpy</Link>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Micro Focus\Visual COBOL\v1.0\MicroFocus.COBOL.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Micro Focus\Visual COBOL\v1.0\MicroFocus.QualityTools.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

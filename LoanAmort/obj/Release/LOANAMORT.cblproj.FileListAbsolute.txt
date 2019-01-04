@@ -1,0 +1,4 @@
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\bin\Release\LOANAMORT.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\obj\Release\LOANAMORT.cblproj.CoreCompileInputs.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\obj\Release\LOANAMORT.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LOANAMORT\obj\Release\LOANAMORT.cblprojAssemblyReference.cache

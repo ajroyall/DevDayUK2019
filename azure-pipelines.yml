@@ -1,0 +1,73 @@
+resources:
+  containers:
+  - container: vcbuildtools-build
+    image: mikecodocker.azurecr.io/microfocus/vcbuildtools-build:latest
+    endpoint: mikecodocker
+
+pool:
+  vmImage: win1803
+
+container: vcbuildtools-build
+
+steps:
+#- task: NodeTool@0
+#  displayName: 'Use Node 6.4.x'
+#  inputs:
+#    versionSpec: 6.4.x
+
+- task: NuGetToolInstaller@0
+  displayName: 'Use NuGet 4.4.1'
+  inputs:
+    versionSpec: 4.4.1
+
+- task: NuGetCommand@2
+  displayName: 'NuGet restore'
+  inputs:
+    restoreSolution: '.\AmortFunctions.sln'
+
+- task: VSBuild@1
+  displayName: 'Build solution'
+  inputs:
+    solution: '.\AmortFunctions.sln'
+    msbuildArgs: '/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:publishUrl="$(Agent.TempDirectory)\WebAppContent\\"'
+    platform: '$(BuildPlatform)'
+    configuration: '$(BuildConfiguration)'
+
+- script: 'C:\VCTools\bin64\MFURUNIL.exe -report:nunit LoanAmortUnitTests.mfu'
+  workingDirectory: '.\LoanAmortUnitTests\bin\Release\'
+  displayName: 'Run Micro Focus Unit Tests'
+
+- task: PublishTestResults@2
+  displayName: 'Publish Test Results **/*TEST-*.xml **/*TEST*-Result.xml'
+  inputs:
+    testResultsFormat: NUnit
+    testResultsFiles: |
+     **/*TEST-*.xml
+     **/*TEST*-Result.xml
+
+- task: ArchiveFiles@2
+  displayName: 'Archive Files'
+  inputs:
+    rootFolderOrFile: '$(Agent.TempDirectory)\WebAppContent'
+    includeRootFolder: false
+
+- task: PublishSymbols@2
+  displayName: 'Publish symbols path'
+  inputs:
+    SearchPattern: '**\bin\**\*.pdb'
+    PublishSymbols: false
+  continueOnError: true
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    PathtoPublish: '$(build.artifactstagingdirectory)'
+    ArtifactName: '$(build.buildnumber)'
+
+#- task: AzureRmWebAppDeployment@3
+#  displayName: 'Azure App Service Deploy: AmortLoanFunctions'
+#  inputs:
+#    azureSubscription: VisualStudioEnterprise
+#    appType: functionapp
+#    WebAppName: AmortLoanFunctions
+#    Package: '$(build.artifactstagingdirectory)/**/drop.zip'

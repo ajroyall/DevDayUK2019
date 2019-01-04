@@ -1,0 +1,7 @@
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortUnitTests\bin\Release\LoanAmortUnitTests.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortUnitTests\bin\Release\LOANAMORT.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortUnitTests\bin\Release\MicroFocus.COBOL.Runtime.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortUnitTests\obj\Release\LoanAmortUnitTests.cblprojAssemblyReference.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortUnitTests\obj\Release\LoanAmortUnitTests.cblproj.CoreCompileInputs.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortUnitTests\obj\Release\LoanAmortUnitTests.cblproj.CopyComplete
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanAmortUnitTests\obj\Release\LoanAmortUnitTests.dll

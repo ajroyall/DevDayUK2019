@@ -1,0 +1,12 @@
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\obj\Debug\LoanPlusUnitTest.cblprojAssemblyReference.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\obj\Debug\LoanPlusUnitTest.cblproj.CoreCompileInputs.cache
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\bin\Debug\LoanPlusUnitTest.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\bin\Debug\LoanPlusUnitTest.pdb
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\bin\Debug\LoanPlusUnitTest.LoanPlusTest.idy
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\bin\Debug\LOANPLUS.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\bin\Debug\MicroFocus.COBOL.Runtime.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\bin\Debug\LOANPLUS.pdb
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\obj\Debug\LoanPlusUnitTest.LoanPlusTest.idy
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\obj\Debug\LoanPlusUnitTest.cblproj.CopyComplete
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\obj\Debug\LoanPlusUnitTest.dll
+C:\Users\alwynr\Downloads\GitHub\AmortLoan\LoanPlusUnitTest\obj\Debug\LoanPlusUnitTest.pdb
